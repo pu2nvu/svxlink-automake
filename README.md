@@ -37,7 +37,7 @@ Tudo o que é necessário fazer para utilizar o Echolink no Raspberry Pi e/ou em
 Basicamente depois que o sistema operacional estiver gravado no microSD Card e este por sua vez estiver inserido no Raspberry, bem como todos os dispositivos, basta ligá-lo pela primeira vez e após a inicialização, não realize configurações adicionais como idioma, hora, etc.
 Acesse o terminal de comandos e digite:
 ==============================================================================================================
-cd /home/pi/Downloads && wget https://github.com/pu8asr/svxlink-automake/raw/master/makefile && make
+cd /home/pi/Downloads && wget https://github.com/pu2nvu/svxlink-automake/raw/master/makefile && make
 ==============================================================================================================
 
 Se não existir a Pasta Downloads em /home/pi/Downloads ocorrerá um erro e o instalador não será executado. Para corrigir o problema use o comando mkdir /home/pi/Downloads e em seguida repita o comando destacado acima.
